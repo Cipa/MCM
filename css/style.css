@@ -1,0 +1,18 @@
+.preview{
+	width: 600px;
+	background: #fff;
+	border: solid 5px #CCC;
+}
+
+.groups{
+	display: none;
+}
+
+.list-groups{
+	display: none;
+}
+
+.preview-template{
+	width: 700px;
+	min-height: 400px;
+}
