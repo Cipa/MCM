@@ -3,7 +3,7 @@
 ###Only works with campaigns generated from pages inside the CMS
 
 ##INSTALL
-- Create a new mdm inside the modules folder and copy all the files
+- Create a new mcm folder inside the modules folder and copy all the files
 - Create a new module named "MCM" or "MailChimp" and paste this code 
 require_once($modx->config['base_path'] . "assets/modules/mcm/mailchimp.php");
 - Configure the module with 
