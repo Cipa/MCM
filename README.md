@@ -13,3 +13,6 @@ require_once($modx->config['base_path'] . "assets/modules/mcm/mailchimp.php");
 - this is not a full MailChimp integration module and might not work with all MailChimp setups
 - send at least one campaign from MailChimp before you use this module
 - you can only documets that have a template id present in the "Allowed Templates" section
+
+###Roadmap:
+- better documentation
