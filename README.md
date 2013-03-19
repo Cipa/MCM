@@ -14,13 +14,14 @@ require_once($modx->config['base_path'] . "assets/modules/mcm/mailchimp.php");
 ```
 &moduleFolder=Module Folder;text;mcm &apiKey=API Key;text;YOUR API KEY &templateIds=Allowed Templates;text;0
 ```
+- To use groups, select your list and in the "Create Groups" section enter a Group Title and a list of groups
 
 ##Notes:
-- this is not a full MailChimp integration module and might not work with all MailChimp setups
-- send at least one campaign from MailChimp before you use this module
-- you can only send documets that have a template id present in the "Allowed Templates" section
+- this is not a full MailChimp integration module and it might not work with all MailChimp setups
+- send at least one campaign from MailChimp, before you use this module
+- you can only send documents that have a template id present in the "Allowed Templates" section
 - make sure you have a valid mailchimp list before you try the module
-- not all mailchim groups are supported. Further testing needed.
+- not all Mailchimp groups are supported. Further testing needed
 - campaings sent from the module will be sent from the site administrator email(Tools/Configuration/Email Address)
 
 ###Roadmap:
