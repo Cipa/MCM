@@ -21,6 +21,7 @@ require_once($modx->config['base_path'] . "assets/modules/mcm/mailchimp.php");
 - you can only send documets that have a template id present in the "Allowed Templates" section
 - make sure you have a valid mailchimp list before you try the module
 - not all mailchim groups are supported. Further testing needed.
+- campaings sent from the module will be sent from the site administrator email(Tools/Configuration/Email Address)
 
 ###Roadmap:
 - better documentation
