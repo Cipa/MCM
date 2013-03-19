@@ -6,6 +6,7 @@ $(document).ready(function() {
 	    
 	    $('#' + value).show();
 	    $('.groups').show();
+	    $('.list-groups').show();
 
 	});
     
